@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+}
+section{
+    
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 0 auto;
+}
+.navation{
+    padding: 15px 0px;
+    /*border-bottom: 1px dotted #ffffff;*/
+    overflow: hidden;
+}
+.navation ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+}
+.navation ul li{
+    float: left;
+
+}
+
+.navation ul li a{
+    padding: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all .5s;
+}
+.navation ul li a:hover{
+    color: rgba(180, 10, 10, 0.8);
+    text-decoration: underline overline;
+
+
+}
+.navation input{
+    float: right;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(10,190,10,0,2);
+    padding: 6px 2px;
+    font-weight: 600;
+    color: #ffffff;
+    outline: none;
+    width: 10%;
+    transition: all .5s;
+
+}
+
+.navation input:focus{
+    width: 40%;
+}
+
+.movie-box{
+    height: 250px;
+    width: 160px;
+    float: left;
+    padding: 2px;
+    margin-left: 4px;
+    border: 1px dotted rgba(180, 10, 10, 0.8);
+}
+
+.movie-info{
+    height: 20%;
+
+}
+.movies-row{
+    overflow: hidden;
+    padding: 4px;
+}
+.movie-img{
+    height: 80%;
+    overflow: hidden;
+}
+.movie-img img{
+    height: 100%;
+    width: 100%;
+    transition:all .5s;
+}
+
+.movie-img img:hover{
+    transform: scale(1.1);
+}
+
+.movie-name{
+    font-weight: 700;
+    color: #ffffff;
+    padding: 2px;
+}
+
+.movie-type{
+    font-weight: 600;
+    color: green;
+    padding: 2px;
+}
+
+::-webkit-scrollbar{
+    background-color:#20211f;
+    width: 10px;
+}
+
+::-webkit-slider-thumb{
+    background-color:black;
+    border-radius: 8px;
+}
+
